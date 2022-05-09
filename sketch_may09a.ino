@@ -17,12 +17,12 @@ void setup() {
   //MOTOR_A CLOCKWISE MAX SPEED
   digitalWrite(in1,HIGH);
   digitalWrite(in2,LOW);
-  analogWrite(en1, 255);
+  analogWrite(en1, 255);//SPEED 1 FOR MOTOR 1//
 
   //MOTOR_B CLOCKWISE MAX SPEED
   digitalWrite(in3,HIGH);
   digitalWrite(in4,LOW);
-  analogWrite(en2, 255);
+  analogWrite(en2, 255);//SPEED 1 FOR MOTOR 2//
   delay(2000);
 
   //STOP
@@ -73,12 +73,12 @@ void setup() {
   //MOTOR_A COUNTERCLOCKWISE MAX SPEED
   digitalWrite(in1,LOW);
   digitalWrite(in2,HIGH);
-  analogWrite(en1, 127);
+  analogWrite(en1, 127);//SPEED 2 FOR MOTOR 1//
 
   //MOTOR_B COUNTERCLOCKWISE MAX SPEED
   digitalWrite(in3,LOW);
   digitalWrite(in4,HIGH);
-  analogWrite(en2, 127);
+  analogWrite(en2, 127);//SPEED 2 FOR MOTOR 2//
   delay(2000);
 
   //STOP
